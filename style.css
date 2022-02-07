@@ -1,0 +1,73 @@
+h1 {
+  margin-left: 15px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+h4 {
+  margin-left: 15px;
+  margin-top: 0px;
+  font-size: 10pt;
+  font-family: "Courier New", Courier, monospace;
+}
+h2 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+h5 {
+  font-size: 12px;
+  margin-left: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  background-color: rgb(250, 250, 250);
+  padding: 10px;
+}
+.grid-container > div {
+  background-color: rgba(215, 214, 214, 0.8);
+  text-align: left;
+  padding: 5px;
+  font-size: 10px;
+}
+
+.item1 {
+  grid-row-start: 1;
+  grid-row-end: 48;
+  margin: 30px 10px 30px;
+}
+
+.item2 {
+  grid-row-start: 1;
+  grid-row-end: 6;
+  margin-top: 30px;
+}
+
+.item3 {
+  grid-row-start: 1;
+  grid-row-end: 6;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.item4 {
+  grid-row-start: 1;
+  grid-row-end: 6;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.item5 {
+  grid-row-start: 6;
+  grid-column: span 3;
+  grid-row-end: 48;
+  margin: 20px 0px 30px;
+  margin-right: 10px;
+}
+.container {
+  border: grey;
+  background-color: grey;
+  margin: 30px 30px 30px;
+}
